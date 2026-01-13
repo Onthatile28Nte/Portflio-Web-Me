@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(151, 231, 231);
+}
+
+header{
+    background-color: rgb(9, 185, 185);
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+.nav-links{
+    display: inline-block;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+
+}
+
+.nav-links:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+
+section{
+    height: 100vh;
+    margin-top: 20vh;
+    color: white;
+    border-color: blue;
+}
+
+.about-me-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.about-me-div img{
+    width: 40vw;
+    height: 62vh;
+    border-radius:100%;
+}
+
+.about-me-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me-text p{
+    font-weight: 800;
+}
+
+.about-me-section h1{
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.projects-div img{
+    width: 30vw;
+    height: 30vh;
+}
+
+.projects-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
