@@ -90,7 +90,7 @@ section{
     font-weight: 800;
 }
 
-.about-me-section h1{
+h1{
     font-size: 70px;
     text-align: center;
 
@@ -107,4 +107,14 @@ section{
     text-align: center;
     align-items: center;
     gap: 20px;
+}
+
+/* .projects-h1{
+    margin-bottom: 40px;
+} */
+
+.project-display{
+    padding: 10px;
+    border-color: black solid 3px;
+    /* background-color: black; */
 }
