@@ -1,2 +1,3 @@
-This porfolio is about myself as a beginner developer building myself in the field (this is a first/draft web portfolio)
+# Portfolio
 
+This is a web portfolio that I have created for the first time as a beginner developer, as I am still learning and developing my skills and learning the best practices when it comes to coding.
