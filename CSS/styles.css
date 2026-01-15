@@ -96,25 +96,27 @@ h1{
 
 }
 
-.projects-div img{
-    width: 30vw;
-    height: 30vh;
-}
-
-.projects-div{
-    display: flex;
-    justify-content: center;
+.project-grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     text-align: center;
-    align-items: center;
-    gap: 20px;
+    
 }
 
-/* .projects-h1{
-    margin-bottom: 40px;
-} */
+.project-grid img{
+    width: 50vw;
+    height: 50vh;
+    border-color: 2px solid blue;
+}
+
+.project-description{
+    font-weight: 800;
+}
+
+.project-header{
+    font-weight: 800;
+}
 
 .project-display{
-    padding: 10px;
-    border-color: black solid 3px;
-    /* background-color: black; */
+    
 }
